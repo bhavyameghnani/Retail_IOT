@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "518951594539",
+    "firebase_url": "https://retailiot-314ba.firebaseio.com",
+    "project_id": "retailiot-314ba",
+    "storage_bucket": "retailiot-314ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518951594539:android:3a97d49a8704b82b",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.retail_iot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518951594539-a4486g2f6d1tgutkof0v16ctc7kb6pmm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2S9Nq2Zdlpy1p8Lfb3UBiIidghWDl75g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518951594539-a4486g2f6d1tgutkof0v16ctc7kb6pmm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/login_background"
+    android:layout_height="match_parent"
+    tools:context=".CrowdDetection">
+
+    <ImageView
+        android:id="@+id/grocery"
+        android:layout_width="148dp"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/grocery" />
+
+
+    <ImageView
+        android:id="@+id/kids"
+        android:layout_width="146dp"
+        android:layout_height="142dp"
+        android:layout_alignBottom="@+id/grocery"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="32dp"
+        android:src="@drawable/kids" />
+
+    <ImageView
+        android:id="@+id/clothing"
+        android:layout_width="141dp"
+        android:layout_height="137dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/grocery"
+        android:layout_marginBottom="135dp"
+        android:src="@drawable/clothing" />
+
+
+    <ImageView
+        android:id="@+id/foot"
+        android:layout_width="148dp"
+        android:layout_height="137dp"
+        android:layout_alignStart="@+id/kids"
+        android:layout_alignTop="@+id/clothing"
+        android:src="@drawable/foot" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="141dp"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="183dp"
+        android:text="Loading"
+        android:textColor="@color/black"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="138dp"
+        android:layout_height="67dp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="34dp"
+        android:text="Loading"
+        android:textColor="@color/black"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="128dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="41dp"
+        android:layout_marginStart="46dp"
+        android:text="Loading"
+        android:textColor="@color/black"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="141dp"
+        android:layout_height="73dp"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignStart="@+id/kids"
+        android:text="Loading"
+        android:textColor="@color/black"
+        android:textSize="28dp" />
+
+
+</RelativeLayout>
